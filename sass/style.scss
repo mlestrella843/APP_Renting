@@ -1,0 +1,38 @@
+* body{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.image1 img{
+    width: 800 px;
+    height: 650px;
+}
+
+.image1{
+    float: left;
+    width: 60%;
+
+}
+
+.user_passw input{
+    display: block;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.user_passw button{
+    width: 50%;
+    padding: 15px;
+}
+
+.user_passw{
+    float: right;
+    width: 30%;
+    padding-top: 250px;
+}
+
