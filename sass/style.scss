@@ -36,3 +36,39 @@
     padding-top: 250px;
 }
 
+
+/*nueva nav bar*/
+nav{
+    margin: 0%;
+    width: 100%;
+    background-color: #66BB6A; 
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+   
+  }
+  
+  ul.b {
+    list-style-type: square;
+  }
+  
+  .menu-horizontal{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;   
+  }
+  .menu-horizontal >li >a{
+  
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  }
+  
+  .menu-horizontal >li:hover{
+    background-color: #FB8C00; 
+  }
+  
+  .menu-horizontal li:hover .menu-vertical{
+    display: block;
+  }
